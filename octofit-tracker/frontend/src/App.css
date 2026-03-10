@@ -1,0 +1,227 @@
+body {
+  background: #f4f6fb;
+  color: #222;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-height: 100vh;
+  background: #f4f6fb;
+}
+
+.navbar {
+  background: #fff !important;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.navbar-brand {
+  color: #222 !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  height: 36px;
+  margin-right: 12px;
+}
+.nav-link {
+  color: #555 !important;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-right: 8px;
+  transition: color 0.2s;
+}
+.nav-link:hover, .nav-link.active {
+  color: #1976d2 !important;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+.card {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  margin-bottom: 32px;
+  border: none;
+}
+.card-header {
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  color: #1976d2;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 16px 24px;
+}
+.card-body {
+  padding: 24px;
+}
+
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  font-size: 1rem;
+}
+.table th {
+  background: #f4f6fb;
+  color: #1976d2;
+  font-weight: 600;
+  border-bottom: 2px solid #e5e7eb;
+}
+.table td {
+  color: #333;
+  border-bottom: 1px solid #e5e7eb;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #f9fafc;
+}
+ .table-bordered {
+   border: 1px solid #e5e7eb;
+ }
+
+/* Logo styling, no animation */
+.App-logo {
+  height: 36px;
+  margin-right: 12px;
+  float: none;
+  animation: none;
+}
+
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 8px 20px;
+  margin: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-success {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+}
+.btn-info {
+  background: #43a047;
+  color: #fff;
+  border: none;
+}
+.btn-warning {
+  background: #ffa726;
+  color: #fff;
+  border: none;
+}
+.btn-secondary {
+  background: #757575;
+  color: #fff;
+  border: none;
+}
+.btn-danger {
+  background: #e53935;
+  color: #fff;
+  border: none;
+}
+.btn:hover {
+  opacity: 0.85;
+}
+
+h1, h2, h3, h4 {
+  color: #222;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+a {
+  color: #1976d2;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #43a047;
+}
+
+.App-link {
+  color: #1976d2;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table th {
+  background: #3a86ff;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #e0eafc;
+}
+.table-bordered {
+  border: 2px solid #8338ec;
+}
+
+.btn {
+  border-radius: 20px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.btn-success {
+  background: linear-gradient(90deg, #06d6a0 0%, #ffd166 100%);
+  color: #22223b;
+}
+.btn-info {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  color: #fff;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffbe0b 0%, #fb5607 100%);
+  color: #fff;
+}
+.btn-secondary {
+  background: linear-gradient(90deg, #22223b 0%, #3a86ff 100%);
+  color: #fff;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #ff006e 0%, #8338ec 100%);
+  color: #fff;
+}
+
+h1, h2, h3, h4 {
+  color: #3a86ff;
+  font-weight: 700;
+}
+
+a {
+  color: #8338ec;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #ffbe0b;
+}
+
+.App-link {
+  color: #ffbe0b;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
